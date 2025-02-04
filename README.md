@@ -37,20 +37,16 @@ This project implements a systolic array architecture for efficient matrix multi
 ### Test Bench Input Generation
 - A Python script formats matrices into the required input format for the test bench.
 
-
-
-![Test Case Results](./test_case_results.png)
-
 ## Performance Characteristics
 
 ### Power Analysis
-![Power Report](./power_report.png)
+![Power Report](./power.png)
 
 ### Resource Utilization
 - The design exceeds the available **IOB (Input/Output Blocks)** on an FPGA due to a large number of required pins.
 - Optimizations may be required to efficiently map the design onto FPGA resources.
 
-![Resource Utilization Report](./resource_utilization.png)
+![Resource Utilization Report](./resource.png)
 
 ## Future Work
 - Optimizing I/O pin usage to fit within FPGA constraints.
